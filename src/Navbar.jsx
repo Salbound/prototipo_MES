@@ -20,16 +20,16 @@ function Navbar() {
         <br></br>
         <ul>
           <li>
-            <Link to="/"><img src={Home} alt="" className="icon" /> Home</Link>
+            <Link to="/prototipo_MES/"><img src={Home} alt="" className="icon" /> Home</Link>
           </li>
           <li>
-            <Link to="/dashboard"><img src={Dashboard} alt="" className="icon" /> Dashboard</Link>
+            <Link to="/prototipo_MES/dashboard"><img src={Dashboard} alt="" className="icon" /> Dashboard</Link>
           </li>
           <li>
-            <Link to="/producao"><img src={Fabrica} alt="" className="icon" /> Produção</Link>
+            <Link to="/prototipo_MES/producao"><img src={Fabrica} alt="" className="icon" /> Produção</Link>
           </li>
           <li>
-            <Link to="/manutencao"><img src={Engrenagem} alt="" className="icon" /> Manutenção</Link>
+            <Link to="/prototipo_MES/manutencao"><img src={Engrenagem} alt="" className="icon" /> Manutenção</Link>
           </li>
         </ul>
       </nav>
