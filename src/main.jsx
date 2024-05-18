@@ -18,9 +18,9 @@ ReactDOM.createRoot(document.getElementById('root')).render(
         <Navbar />
         <Routes>
           <Route index element={<App />} />
-          <Route path="/producao" element={<Producao />} />
-          <Route path="/manutencao" element={<Manutencao />} />
-          <Route path="/dashboard" element={<Dashboard />} />
+          <Route path="/prototipo_MES/producao" element={<Producao />} />
+          <Route path="/prototipo_MES/manutencao" element={<Manutencao />} />
+          <Route path="/prototipo_MES/dashboard" element={<Dashboard />} />
           <Route path="*" element={<NoPage />} />
         </Routes>
       </div>
