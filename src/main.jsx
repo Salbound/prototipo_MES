@@ -1,6 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route, HashRouter } from "react-router-dom";
 import App from './App.jsx'
 import Producao from './Producao.jsx'
 import Navbar from './Navbar.jsx'
@@ -13,17 +13,17 @@ import './normalize.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <BrowserRouter>
+    <HashRouter>
       <div className="container">
         <Navbar />
         <Routes>
           <Route index element={<App />} />
-          <Route path="/prototipo_MES/producao" element={<Producao />} />
-          <Route path="/prototipo_MES/manutencao" element={<Manutencao />} />
-          <Route path="/prototipo_MES/dashboard" element={<Dashboard />} />
+          <Route path="/producao" element={<Producao />} />
+          <Route path="/manutencao" element={<Manutencao />} />
+          <Route path="/dashboard" element={<Dashboard />} />
           <Route path="*" element={<NoPage />} />
         </Routes>
       </div>
-    </BrowserRouter>
+    </HashRouter>
   </React.StrictMode>
 )
