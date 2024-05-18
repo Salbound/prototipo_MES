@@ -1,0 +1,44 @@
+.nav{
+    background-color: #122538;
+    margin: 0px;
+    padding: 0px;
+    height: 100svh;
+    width: 200px;
+    min-width: 200px;
+    color: azure;
+    box-shadow: 10px;
+    align-content: baseline;
+    align-items: center;
+    box-shadow: 2px 2px 5px 2px #888888
+}
+
+a{
+    color: azure;
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+    margin-bottom: 1em;
+    font-size: 1.1em;
+}
+
+.logo{
+    width: 80px;
+    display: block;
+    border-radius: 50%;
+    align-self: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2em;
+}
+
+.icon{
+    width: 15px;
+    margin-right: 5px;
+    filter: invert(100%);
+}
+
+p{
+    text-align: center;
+}

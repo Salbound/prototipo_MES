@@ -1,0 +1,20 @@
+.no-page {
+    width: 100%;
+    padding: 20px;
+    align-items: center;
+    content: inherit;
+}
+
+.no-page>h1 {
+    font-size: 3em;
+    text-align: center;
+}
+
+.robot404 {
+    display: block;
+    width: 230px;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    align-self: center;
+}

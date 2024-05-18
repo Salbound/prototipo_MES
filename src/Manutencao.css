@@ -1,0 +1,35 @@
+.OS {
+    border: 1px solid azure;
+    border-radius: 10px;
+    box-shadow: 0.5px 0.5px 3px grey;
+    padding: 10px;
+    display: flex;
+}
+
+.delete-button {
+    margin-right: 10px;
+    margin-left: auto;
+    align-self: right;
+    font-size: 12px;
+    color: rgba(5, 5, 56, 0.701);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.text{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.text-input{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+*:focus{
+    outline: none;
+}
+
+
+.add-button{
+    margin-left: 15px;
+}
